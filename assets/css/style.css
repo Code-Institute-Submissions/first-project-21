@@ -10,17 +10,24 @@ body {
     color: #454545;
 }
 
-ul {
+/* navigationi */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    margin: 20px 0 20px;
+}
+
+#menu ul {
     font-family: sans-serif;
     font-weight: 400;
-    color: #1B1C8Dff;
+    color: #7B96C2ff;
     list-style: none;
 
 }
 
 li {
     display: inline-block;
-    padding: 0 10px;
+    margin-right: 10px;
 }
 
 a {
@@ -36,4 +43,26 @@ a:hover {
 a.active {
     background-color: #555;
     color: #fff;
+}
+
+/* login */
+select {
+    float: right;
+    padding: 10px;
+    font-size: 400;
+    border: solid 1px #7B96C2ff;
+    margin:10px 0 10px;
+}
+
+.login {
+    float: right;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 110%;
+    color: #7B96C2ff;
+    list-style: none;
+    margin: 0 10px;
+    padding: 10px;
+    margin: 10px 10px;
+
 }
