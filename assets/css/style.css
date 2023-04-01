@@ -1,5 +1,39 @@
-div {
-    background-color: bisque;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: calibri;
+    font-weight: 300;
+    color: #454545;
+}
+
+ul {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #1B1C8Dff;
+    list-style: none;
+
+}
+
+li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+
+a.active {
+    background-color: #555;
+    color: #fff;
 }
