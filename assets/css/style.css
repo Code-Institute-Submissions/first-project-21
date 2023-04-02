@@ -13,7 +13,7 @@ body {
 /* navigation */
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     margin: 10px 0 10px;
 }
 
@@ -109,5 +109,30 @@ select {
 }
 
 #burka-text h5 {
-    font-size: 120%;
+    font-size: 110%;
+}
+
+/* statistics section*/
+.container {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;     
+    display: flex;
+    justify-content: space-between;    
+}
+
+.container div {
+    display: inline-block;
+    width: 25%;
+    padding-left: 50px;
+}
+
+.container h1 {
+    color: red;
+    font-size: 300%;
+}
+
+.container p {
+    color: #454545;
+    font-size: 150%;
 }
