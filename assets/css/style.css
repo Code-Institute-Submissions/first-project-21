@@ -69,32 +69,5 @@ select {
 
 /* header picture and logo */
 
-.banner {
-    position: relative;
-}
-.banner-main {
-    width: 100%;
-    height: auto;
-}
-
-.banner-text {
-    display: block;
-    font-family: calibri;
-    color: bisque;
-    position: absolute;
-    top: 400px;
-    padding: 50px;
-    width: 200px;
-    height: 100px;
-}
-
-.banner-logo {
-    position: absolute;
-    width: 20%;
-    
-    top: 100px;
-    left: 50px;
-    display: block;
-}
 
 /* text on the header picture */
