@@ -10,7 +10,7 @@ body {
     color: #454545;
 }
 
-/* navigationi */
+/* navigation */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -51,7 +51,7 @@ select {
     padding: 10px;
     font-size: 400;
     border: solid 1px #7B96C2ff;
-    margin:10px 0 10px;
+    
 }
 
 .login {
@@ -63,23 +63,38 @@ select {
     list-style: none;
     margin: 0 10px;
     padding: 10px;
-    margin: 10px 10px;
+    
 
 }
 
 /* header picture and logo */
 
-.header-pic {
+.banner {
     position: relative;
+}
+.banner-main {
     width: 100%;
     height: auto;
 }
 
-.logo-pic {
+.banner-text {
+    display: block;
+    font-family: calibri;
+    color: bisque;
     position: absolute;
-    width: 300px;
-    height: 50;
-    top: 130px;
-    left: 50px;
-    
+    top: 400px;
+    padding: 50px;
+    width: 200px;
+    height: 100px;
 }
+
+.banner-logo {
+    position: absolute;
+    width: 20%;
+    
+    top: 100px;
+    left: 50px;
+    display: block;
+}
+
+/* text on the header picture */
