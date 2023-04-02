@@ -90,13 +90,24 @@ select {
 /* text on the header picture */
 #burka-text {
     font-family: calibri;
-    font-size: 160%;
     color: #d4804e;
     width: 50%;
-    height: 30%;
+    height: auto;
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: 300px;
-    left: 50px
-    margin-bottom: 20px
+    left: 50px;
+    letter-spacing: 2px;
+    padding: 20px 20px; 
+    display: inline-block;  
+
+}
+
+#burka-text h1 {
+    font-size: 220%;
+    margin-bottom: 20px;
+}
+
+#burka-text h5 {
+    font-size: 120%;
 }
