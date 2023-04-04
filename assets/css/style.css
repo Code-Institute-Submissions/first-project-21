@@ -116,7 +116,8 @@ select {
 .container {
     width: 100%;
     margin-top: 100px;
-    margin-bottom: 100px;     
+    margin-bottom: 100px;
+       
     display: flex;
     justify-content: space-between;
      
@@ -124,10 +125,17 @@ select {
 
 .container div {
     display: inline-block;
-    width: 33%;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 25%;
     
+    
+}
+
+.container-right {
+    margin-right: 50px;
+}
+
+.container-left {
+    margin-left: 50px;
 }
 
 .container h1 {
