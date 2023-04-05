@@ -117,39 +117,34 @@ select {
 }
 
 /* statistics section*/
-.container {
-    width: 100%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-       
-    display: flex;
-    justify-content: space-between;
-     
+#statistics {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+             
 }
 
-.container div {
-    width: 25%;
+#statistics td {
+    padding: 0 20px;
 }
 
-.container-right {
-    margin-right: 50px;
-}
-
-.container-left {
-    margin-left: 50px;
-}
-
-.container h1 {
+#statistics-td1 {
     color: red;
     font-size: 300%;
+    font-weight: 700;
+    vertical-align: bottom;
+    text-align: left;
 }
 
-.container p {
+#statistics-td2 {
     color: green;
     font-size: 150%;
     font-weight: bold;
-        
+    vertical-align: top;
+    text-align: left;
 }
+
+
 
 /* talib and girl */
 #talib {
@@ -194,6 +189,8 @@ select {
     width: 100%;
     height: 500px;
     background-color: hsl(208, 95%, 7%);
+    position: relative;
+    box-sizing: border-box;
 }
 
 #starting h2 {
@@ -203,36 +200,21 @@ select {
     padding: 50px;
 }
 
-#starting div {
-    width: 90%;
-    clear: both;
-    margin-bottom: 50px 50px 25px 50px;
-    
-   
-    
-}
-#starting i {
-    padding-left: 100px;
-    padding-top: 25px;
-    float: left;
+#starting table {
+    width: 70%;
     color: rgb(156, 165, 165);
-}
-
-#starting h3 {
-    width: 60%;
-    color: rgb(156, 165, 165);
+    margin-left: 150px;
     font-size: 150%;
-    padding-left: 30px;
-    float: left;
+    font-weight: 700;
+    
 }
 
-#starting p {
-    width: 20%;
-    color: rgb(204, 233, 39);
-    font-size: 150%;
-    font-weight: 600;
-    padding-left: 50px;
-    padding-top: 25px;
-    float: left;
+#starting td {
+    padding: 10px;
+    align-items: left bottom;
+
 }
 
+#Starting-td {
+    color: #d4804e;
+}
