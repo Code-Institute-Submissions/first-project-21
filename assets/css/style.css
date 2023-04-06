@@ -247,13 +247,14 @@ footer div {
 
 footer table {
     display: table; 
-    padding-left: 60px; 
+    padding-left: 100px; 
+    color: black;
     
 }
 
 footer i {
     padding: 20px;
-    color: #454545;
+    color: black;
 }
 
   
