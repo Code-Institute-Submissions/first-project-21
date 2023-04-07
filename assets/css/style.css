@@ -118,10 +118,15 @@ header {
 }
 
 /* header picture and logo */
-#banner {
-    position: relative;
-    width: 100%;
-    overflow: auto;
+#burka {        
+    height: 750px;
+    background: url('../images/burqa-mit-bread-3.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#banner {    
+    position: relative;    
+    overflow: auto;    
 }
 
 #banner img {
@@ -131,29 +136,22 @@ header {
     width: 12%;
 }
 
-#burka {
-    position: relative;
-    height: 750px;
-    background: url('../images/burqa-mit-bread-3.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-
-
 
 /* text on the header picture */
 #burka-text {
+    position: relative;
     font-family: calibri;
     color: #d4804e;
     width: 50%;
-    height: auto;
+    height: 15%;
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: 300px;
-    left: 50px;
+    left: 60px;
     letter-spacing: 2px;
     padding: 20px 20px; 
-    display: inline-block;  
+    font-size: 1.2vw;
+    
 
 }
 
@@ -165,6 +163,7 @@ header {
 #burka-text h5 {
     font-size: 110%;
 }
+
 
 /* statistics section*/
 #statistics {
