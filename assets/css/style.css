@@ -12,10 +12,15 @@ body {
 }
 
 /* navigation */
+header {
+    display: flex;
+    flex-direction: row;
+}
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
     margin: 10px 0 10px;
+    
 }
 
 #menu ul {
@@ -23,6 +28,7 @@ body {
     font-weight: 400;
     color: #7B96C2ff;
     list-style: none;
+    
 
 }
 
@@ -50,17 +56,22 @@ body {
 
 
 /* login */
-select {
+#login {
+    flex-grow: 2;
+    margin: 10px 0 10px;
+}
+#login select {
     float: right;
     padding: 10px;
     font-size: 600;
     border: solid 1px #7B96C2ff;
     text-align: center;
+   
     
     
 }
 
-.login {
+#login .bottom {
     float: right;
     font-family: sans-serif;
     font-weight: 400;
@@ -69,6 +80,7 @@ select {
     list-style: none;
     margin: 0 5px;
     padding: 10px;
+   
     
     
 
