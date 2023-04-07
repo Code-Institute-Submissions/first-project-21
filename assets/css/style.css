@@ -226,6 +226,8 @@ header {
     height: 460px;
     background-color: #454545;      
     position: relative;
+    display: flex;
+    
 
       
 }
@@ -241,14 +243,17 @@ header {
     padding: 0 0 25px 35px;
     letter-spacing: 2px;
     padding-top: 40px;
+
 }
 
-#talib img {
+#talib img {   
     position: absolute;
+    max-width: 60%; 
     top: 25px;
     right: 25px;
-    bottom: 25px;    
-    width: 60%; 
+    bottom: 25px;
+    
+    
     
     
 }
