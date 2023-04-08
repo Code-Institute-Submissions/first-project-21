@@ -517,4 +517,37 @@ form button:hover {
     background-color: rgb(235, 188, 188);
 }
 
+/* media query for form below 800px */
 
+@media screen and (max-width: 800px){
+    
+    form {
+        width: 60%;
+    }
+
+    form label {
+        display: block;
+        width: 100%;
+        
+    }
+
+    form input {
+        display: block;
+        margin-bottom: 10px;
+        float: none;
+        width: 100%;
+    }
+
+    form select {
+        display: block;
+        margin-bottom: 10px;
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    form {
+        width: 80%;
+    }
+}
