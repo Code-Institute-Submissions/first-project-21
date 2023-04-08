@@ -455,27 +455,66 @@ footer div:nth-child(1) img {
 }
 
 form {    
-    display: flex;
-    flex-direction: column;
-    width: 60%;
+    display: inline-block;  
+    width: 50%;
     height: auto;    
-    font-size: 150%; 
-    margin: 0 auto;   
+    font-size: 130%;
+    
+    
+      
 }
 
+form div {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
 
-
-form lable {
+form label {    
     width: 30%;
-    
+    padding: 10px 0; 
+    font-weight: 500;
+    color: #454545;  
 
 }
 
-form input {
-    
-    
+form select {
+    float: right;
     border: solid 1px gray;
     width: 60%;
+    height: 30px;
+    font-size: large;
+    padding: 2px;
+    color: gray;   
+}
+
+form input, textarea {   
+    float: right;
+    border: solid 1px gray;
+    width: 60%;
+    height: 25px;
+    font-size: large;
+    padding: 2px;
+    color: gray;         
+}
+
+form hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #454545;
+}
+
+form button {
+    background-color: rgb(196, 194, 194);
+    cursor: pointer;
+    color: #454545;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: rgb(235, 188, 188);
 }
 
 

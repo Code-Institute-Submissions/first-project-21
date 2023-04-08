@@ -43,17 +43,72 @@
 
     <section id="form-container">
         <form action="process-form.php" method="POST">
-            
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="Name" placeholder="Enter your name!">
-            
+            <h3>Personal Information</h3>
+            <hr><br>
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="Name" placeholder="Enter your name!">
+            </div>
 
+            <div>
+                <label for="birthplace">Place of Birth:</label>
+                <select id="birthplace" name="Place of Birth">
+                    <option value="disabled selected">Please select!</option>
+                    <option value="kabul">Kabul</option>
+                    <option value="balkh">Balkh</option>
+                    <option value="bamyan">Bamyan</option>
+                    <option value="herat">Herat</option>
+                    <option value="kandahar">Kandahar</option>
+                </select>
+            </div>
             
-            <label for="birthplace">Place of Birth:</label>
-            <input type="text" id="birthplace" name="Place of Birth" placeholder="Kabul">
-            
+            <div>
+                <label for="birthdate">Date of Birth</label>
+                <input type="date" id="birthdate" name="Date of Birth" placeholder="dd/mm/yyyy">
+            </div>
 
-            <label for="birthdate">Date of Birth</label>
-            <input type="text" id="birthdate" name="Date of Birth" placeholder="dd/mm/yyyy">
+            <div>
+                <label for="marriage">Marital Status:</label>
+                <select id="marriage" name="Marital Status">
+                    <option value="disabled selected">Please select!</option>
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
+                    <option value="engaged">Engaged</option>
+                    <option value="divorced">Divorced</option>
+                    <option value="wido">Widow</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="education">Education Level:</label>
+                <select id="education" name="Education Level">
+                    <option value="disabled selected">Please select!</option>
+                    <option value="ph.d.">Ph.D.</option>
+                    <option value="master's">Master's</option>
+                    <option value="bachelor">Bachelor</option>
+                    <option value="high-school">High School</option>
+                    <option value="below-high-school">Below High School</option>
+                </select>
+            </div>
+            
+            <br>
+            <h3>Uploads</h3>
+            <hr><br>
+
+            <div>
+                <label for="id-upload">Upload ID</label>
+                <input type="file" id="id-upload" name="ID">                
+            </div>
+
+            <div>
+                <label for="certificate-upload">Upload Degree</label>
+                <input type="file" id="certificate-upload" name="Education Certificate">                                
+            </div>
+            <br><br>
+
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Clear Form</button>
+            </div>
         </form>
     </section>
