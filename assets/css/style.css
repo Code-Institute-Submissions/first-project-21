@@ -143,7 +143,7 @@ header {
     font-family: calibri;
     color: #d4804e;
     width: 50%;
-    height: 20%;
+    height: 30%;
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: 300px;
@@ -156,18 +156,18 @@ header {
 }
 
 #burka-text h1 {
-    font-size: 220%;
+    font-size: 240%;
     margin-bottom: 20px;
 }
 
 #burka-text h5 {
-    font-size: 110%;
+    font-size: 120%;
 }
 
 /* media setting for textbox on the background picture from 1260 */
 @media screen and (max-width: 1260px) {
     #burka-text {
-        font-size: 1vw;
+        font-size: 1.8vw;
         height: auto;
         
     }
