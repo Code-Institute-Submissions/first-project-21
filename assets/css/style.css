@@ -133,7 +133,7 @@ header {
     position: absolute;
     top: 60px;
     left: 60px;
-    width: 12%;
+    width: 18%;
 }
 
 
@@ -146,7 +146,7 @@ header {
     height: 30%;
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
-    top: 300px;
+    top: 350px;
     left: 60px;
     letter-spacing: 2px;
     padding: 20px 20px; 
@@ -167,11 +167,19 @@ header {
 /* media setting for textbox on the background picture from 1260 */
 @media screen and (max-width: 1260px) {
     #burka-text {
-        font-size: 1.8vw;
         height: auto;
-        
+    }
+
+    #banner img {
+        width: 25%;
     }
     
+}
+
+@media screen and (max-width: 786px) {
+    #burka-text {
+        font-size: 2.5vw;
+    }
 }
 
 /* statistics section*/
