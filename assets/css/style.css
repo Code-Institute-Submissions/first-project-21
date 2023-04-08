@@ -289,7 +289,7 @@ header {
 /* starting section */
 #starting {
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: #e2dac3;
     position: relative;
     
@@ -314,6 +314,7 @@ header {
 
 #starting td {
     padding: 10px;
+    padding-bottom: 30px;
     vertical-align: center;
 
 }
