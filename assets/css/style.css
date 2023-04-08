@@ -272,14 +272,15 @@ header {
     #talib div {
         max-width: 70%;
         padding: 50px;
+        order: 2;
         
     }
 
     #talib img {
         position: relative;
         max-width: 100%;        
-        margin-bottom: 100px;
         text-align: center;
+        order: 1;
     }
 
    
