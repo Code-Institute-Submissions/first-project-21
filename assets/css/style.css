@@ -247,9 +247,11 @@ header {
 #talib img {   
     position: absolute;
     max-width: 60%; 
-    top: 25px;
-    right: 25px;
-    bottom: 25px;    
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: solid 25px #454545;
+      
 }
 
 #talib h2 {
@@ -278,7 +280,7 @@ header {
 
     #talib img {
         position: relative;
-        max-width: 100%;        
+        max-width: 90%;        
         text-align: center;
         order: 1;
     }
@@ -390,3 +392,17 @@ footer div:nth-child(1) img {
     height: auto;
 }
 
+/* media query for contact from 890 */
+
+@media screen and (max-width: 890px) {
+    footer {
+        height: auto;
+        column-count: 1;
+        align-items: center;       
+
+    }
+
+    footer div {
+        padding: 25px 0;       
+    }
+}
