@@ -38,13 +38,22 @@
     </Header>
 
     <section id="apply-banner">        
-        <h1>Application Form</h1>
-        
+        <h1>Application Form</h1>        
     </section>
 
-    <section>
+    <section id="form-container">
         <form action="process-form.php" method="POST">
-            <label for="name">Name:</label>
+            
+            <label for="name">Full Name:</label>
             <input type="text" id="name" name="Name" placeholder="Enter your name!">
+            
+
+            
+            <label for="birthplace">Place of Birth:</label>
+            <input type="text" id="birthplace" name="Place of Birth" placeholder="Kabul">
+            
+
+            <label for="birthdate">Date of Birth</label>
+            <input type="text" id="birthdate" name="Date of Birth" placeholder="dd/mm/yyyy">
         </form>
     </section>
