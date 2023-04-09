@@ -499,7 +499,7 @@ form input, textarea {
 }
 
 form input[type="checkbox"] {
-    width: 10%;
+    width: 10%;    
     float: left;
     padding: 5px;
 }
@@ -570,7 +570,7 @@ form button:hover {
     height: 400px;
     display: flex;    
     align-items: flex-end;
-    background-position: center;
+    background-position: center 70%;
 }
 
 #supporter-banner h1 {
