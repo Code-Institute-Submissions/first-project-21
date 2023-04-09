@@ -458,9 +458,7 @@ form {
     display: inline-block;  
     width: 50%;
     height: auto;    
-    font-size: 130%;
-    
-    
+    font-size: 130%;  
       
 }
 
@@ -470,6 +468,7 @@ form div {
     align-items: center;
 }
 
+
 form label {    
     width: 30%;
     padding: 10px 0; 
@@ -477,6 +476,7 @@ form label {
     color: #454545;  
 
 }
+
 
 form select {
     float: right;
@@ -496,6 +496,12 @@ form input, textarea {
     font-size: large;
     padding: 2px;
     color: gray;         
+}
+
+form input[type="checkbox"] {
+    width: 10%;
+    float: left;
+    padding: 5px;
 }
 
 form hr {
