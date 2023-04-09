@@ -481,7 +481,7 @@ form label {
 form select {
     float: right;
     border: solid 1px gray;
-    width: 60%;
+    width: 61%;
     height: 30px;
     font-size: large;
     padding: 2px;
@@ -496,6 +496,10 @@ form input, textarea {
     font-size: large;
     padding: 2px;
     color: gray;         
+}
+
+form input [type="date"] {
+    font-size: 200%;
 }
 
 form hr {
