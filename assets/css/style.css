@@ -422,7 +422,7 @@ footer div:nth-child(1) img {
 #apply-banner {
     width: 100%;
     position: relative;
-    background: url('../images/free-from-prison.jpg') no-repeat center center;
+    background: url('../images/afghan-girl-hope.jpg') no-repeat center center;
     background-size: cover;    
     height: 400px;
     display: flex;    
@@ -498,10 +498,6 @@ form input, textarea {
     color: gray;         
 }
 
-form input [type="date"] {
-    font-size: 200%;
-}
-
 form hr {
     width: 100%;
     border: none;
@@ -554,4 +550,33 @@ form button:hover {
     form {
         width: 80%;
     }
+}
+
+
+/* supporter-form.html */
+/* banner and title */
+
+#supporter-banner {
+    width: 100%;
+    position: relative;
+    background: url('../images/afghan-girl-hope.jpg') no-repeat center center;
+    background-size: cover;    
+    height: 400px;
+    display: flex;    
+    align-items: flex-end;
+    background-position: center;
+}
+
+#supporter-banner h1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;    
+    background-color: rgb(224, 219, 219, .7);
+    color: #96052e;
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;    
 }
