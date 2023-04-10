@@ -498,11 +498,17 @@ form input, textarea {
     color: gray;         
 }
 
-form input[type="checkbox"] {
+/* form input[type="checkbox"] {
     width: 10%;    
     float: left;
     padding: 5px;
+} */
+
+form table td {
+    width: fit-content;
+    padding: 10px;
 }
+
 
 form hr {
     width: 100%;
