@@ -182,12 +182,13 @@ header {
 
 /* statistics section*/
 #statistics {
-    width: 90%;
-    height: 300px;
+    width: 90%;    
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 100px;    
     column-count: 3;
     column-gap: 100px;
+  
              
 }
 
