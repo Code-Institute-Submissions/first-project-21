@@ -285,8 +285,7 @@ header {
         
     }
 
-    #talib img {
-        position: relative;
+    #talib img {        
         max-width: 90%;        
         text-align: center;
         order: 1;
