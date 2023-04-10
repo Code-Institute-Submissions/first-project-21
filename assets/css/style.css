@@ -519,11 +519,14 @@ form input {
 }
 
 form textarea {
-    width: 100%;
+    width: 90%;
     height: 300px;
     border: solid 1px gray;
     border-radius: 4px;
     resize: none;
+    font-size: large;
+    font-family: calibri;
+    padding: 20px;
 }
 
 form table td {
