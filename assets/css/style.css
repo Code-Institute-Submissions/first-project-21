@@ -383,7 +383,8 @@ footer {
     background-color: #55a4b4;   
     font-size: large;
     font-weight: 700;
-    column-count: 3;   
+    column-count: 3;
+    column-gap: 10px;
 }
 
 footer div {
@@ -409,7 +410,18 @@ footer li {
 footer div:nth-child(1) img {
     width: 35%;
     height: auto;
+       
 }
+
+footer table td:nth-child(1) {
+    text-align: center;
+}
+
+footer div p i {
+    padding: 5px;
+}
+
+ 
 
 /* media query for contact from 890 */
 
