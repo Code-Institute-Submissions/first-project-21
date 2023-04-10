@@ -62,6 +62,8 @@ header {
     font-size: 600;
     border: solid 1px #7B96C2ff;
     text-align: center;
+    color: #454545;
+
    
     
     
@@ -326,10 +328,21 @@ header {
 
 }
 
-#Starting-td {
+#starting-td {
     color: #F5174e;
-    vertical-align: bottom;
+    vertical-align:bottom;
     white-space: nowrap;
+   
+    
+}
+
+#starting-td a {
+    text-decoration: none;
+    color: #F5174e;
+}
+
+#starting-td a:hover {
+    text-shadow: 0 0 10px rgb(24, 22, 22);
 }
 
 /* media query for statistics from 1120 screen size */
