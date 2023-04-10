@@ -53,7 +53,7 @@ header {
 
 /* login */
 #login {
-    flex-grow: 2;
+    flex-grow: 1;
     margin: 10px 0 10px;
 }
 #login select {
@@ -62,10 +62,7 @@ header {
     font-size: 600;
     border: solid 1px #7B96C2ff;
     text-align: center;
-    color: #454545;
-
-   
-    
+    color: #454545;      
     
 }
 
@@ -78,6 +75,7 @@ header {
     list-style: none;
     margin: 0 5px;
     padding: 10px;
+   
    
     
     
