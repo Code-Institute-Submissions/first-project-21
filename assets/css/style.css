@@ -498,11 +498,7 @@ form input, textarea {
     color: gray;         
 }
 
-/* form input[type="checkbox"] {
-    width: 10%;    
-    float: left;
-    padding: 5px;
-} */
+
 
 form table td {
     width: fit-content;
@@ -544,8 +540,7 @@ form button:hover {
     }
 
     form input {
-        display: block;
-        margin-bottom: 10px;
+        display: block;       
         float: none;
         width: 100%;
     }
