@@ -285,17 +285,11 @@ header {
         display: block;
         order: 2;
         padding: 0 10px 40px 10px;
-        
-        
-
-    }
+       }
 
     #talib img {
         position: relative;
-        max-width: 90%;
-        
-        
-        
+        max-width: 90%;     
         
     }
 }
@@ -304,14 +298,14 @@ header {
 
 /* video */
 
-/* #video {
-    width: 80%;
-    height: 600px;    
+#video {    
+    width: 900%;
+    height: 700px;    
     display: block;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
-} */
+}
 
 
 /* starting section */
