@@ -288,10 +288,20 @@ header {
         max-width: 90%;        
         text-align: center;
         order: 1;
-    }
+    }  
+}
 
-   
-  
+/* video */
+
+#video {
+    width: 80%;
+    height: 600px;    
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
 }
 
 /* starting section */
