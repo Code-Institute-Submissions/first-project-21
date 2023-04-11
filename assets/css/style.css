@@ -299,10 +299,12 @@ header {
 /* video */
 
 #video {    
-    width: 900%;
-    height: 700px;    
-    display: block;
-    margin: 0 auto;
+    width: 100%;
+    height:max-content; 
+    background-color: black;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
