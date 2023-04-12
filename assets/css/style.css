@@ -58,7 +58,7 @@ header {
     
 }
 
-#login .bottom {
+#login .button {
     float: right;
     font-family: sans-serif;
     font-weight: 400;
@@ -92,7 +92,7 @@ header {
         margin-right: 0;      
     }
     
-    #login .bottom {         
+    #login button {         
         float: none;
         width: 50%;       
         border: solid 1px #7B96C2ff;
@@ -631,4 +631,30 @@ form button:hover {
     height: 220px;
 }
 }
+#login-banner {
+    width: 100%;
+    position: relative;
+    background: url('../images/afghan-girl-heart.jpg') no-repeat center center;
+    background-size: cover;    
+    height: 600px;
+    display: flex;    
+    
+}
 
+#login-banner h1 {
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    right: 60%;
+    left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 30%;    
+    background-color: rgb(224, 219, 219, .7);
+    color: #96052e;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;    
+}
