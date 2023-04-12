@@ -107,19 +107,7 @@ header {
         border: solid 1px #7B96C2ff;
         margin-top: 5px;
         margin-bottom: 5px;       
-    }
-
-    #login-banner {
-        position: relative;
-        display: block;
-        justify-content: center;
-        align-items: center;        
-    }
-    
-    #login-banner form {       
-        width: 90%; 
-        position: 0;            
-    }
+    }  
 }
 
 
@@ -663,7 +651,7 @@ form button:hover {
     position: relative;
     background: url('../images/afghan-girl-heart1.jpg') no-repeat center center;
     background-size: contain;    
-    height:900px; 
+    height: 900px;
     background-position: top;   
     
 }
@@ -706,8 +694,7 @@ form button:hover {
 }
 
 
-#login-banner button {
-    
+#login-banner button {    
     font-family: sans-serif;
     font-weight: 400;
     font-size: 100%;
@@ -715,41 +702,54 @@ form button:hover {
     color: #f5d3a3;
     list-style: none;
     margin-top: 20px;
-    padding: 10px; 
-    
+    padding: 10px;
      
 }
 
-@media screen and (max-width: 1160px) {
-   
+@media screen and (max-width: 1160px) {  
     
     #login-banner {
-        background-size: contain;        
-        
-           
+        background-size: contain;          
      }
      
-     #login-banner form {       
+     #login-banner form { 
+        width: 290px;          
         margin-top: 15%;
         margin-left: 55%; 
 }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
    
     #login-banner {
-       background-size: cover;
-        max-height: 500px;
-        background-position: 30% center; 
-        display: flex;
-          
+        background-size: cover;
+        max-height: 500px;        
+        display: flex;       
     }
     
-    #login-banner form {       
-        width: 311px;
-        margin: 10px;
-        
-        
-                   
+    #login-banner form {         
+        width: 290px;
+        margin: 90px auto;                 
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #login-banner {
+        position: relative;
+        display: flex;      
+        background-position: 20% center;        
+    }
+
+    #login-banner form {         
+        width: 290px;
+        justify-content: center;
+        align-items: center;              
+    }
+}
+
+@media screen and (max-width: 350px){
+    #login-banner form {         
+        width: 90%;
+        margin: auto 10px;          
     }
 }
