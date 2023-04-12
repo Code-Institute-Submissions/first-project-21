@@ -38,23 +38,26 @@
         </section>
     </Header>
 
-<!-- title on the banner -->
-
-    <section id="login-banner" alt="a flower comes from heart of an Afghan girl.">        
-        <h1>Log In</h1>
-        <div>
-            <label for="username">User Name:</label>
-            <input type="text" id="username" name="User Name">
-        </div>
+<!-- login part on the banner -->
+    
+    <section id="login-banner" alt="a flower comes from heart of an Afghan girl.">
         
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="Password">
-        </div>
+            <form action="process-form.php" method="POST">
+            <h1>Please Enter Your Username and Password!</h1>
+            <div>
+                <label for="username">User Name:</label>
+                <input type="text" id="username" name="User Name">
+            </div>
+            
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="Password">
+            </div>
 
-        <div>
-            <button type="submit">Log in</button>
-        </div>
+            <div>
+                <button type="submit">Log in</button>
+            </div>
+        </form>
     </section>
 
 
