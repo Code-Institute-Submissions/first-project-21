@@ -75,8 +75,7 @@ header {
 }
 
 #login a:hover {
-    color: #7B96C2ff;
-    text-decoration-color: #F5174e;
+    color: #7B96C2ff;    
 }
 
 /* media queries for menu and login */
@@ -646,8 +645,9 @@ form button:hover {
     position: relative;
     background: url('../images/afghan-girl-heart.jpg') no-repeat center center;
     background-size: cover;    
-    height: 600px;
-    display: flex;    
+    height: 800px;
+    display: flex;
+       
     
 }
 
