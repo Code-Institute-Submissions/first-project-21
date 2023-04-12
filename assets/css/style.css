@@ -366,6 +366,11 @@ footer div {
     justify-content: center;
     color: black;
 }
+
+footer table a {
+    text-decoration: none;
+    color: black;
+}
 footer i {
     padding: 20px;
     color: black;
