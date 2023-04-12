@@ -3,15 +3,12 @@
     padding: 0;
     border: none;
 }
-
-
 body {
     font-family: calibri;
     font-weight: 300;
     color: #454545;
       
 }
-
 /* navigation */
 header {
     display: flex;
@@ -23,35 +20,26 @@ header {
     margin: 10px 0 10px;
     
 }
-
 #menu ul {
     font-family: sans-serif;
     font-weight: 400;
     color: #7B96C2ff;
     list-style: none;
     
-
 }
-
 #menu li {
     display: inline-block;
     margin-right: 10px;
     
 }
-
 #menu a {
     display: block;
     padding: 10px;
     text-decoration: none;
 }
-
 #menu a:hover {
     background-color: #ddd;
 }
-
-
-
-
 /* login */
 #login {
     flex-grow: 1;
@@ -63,7 +51,8 @@ header {
     font-size: 600;
     border: solid 1px #7B96C2ff;
     text-align: center;
-    color: #454545;      
+    color: #454545; 
+    margin-right: 10px;     
     
 }
 
@@ -80,7 +69,6 @@ header {
    
     
     
-
 }
 /* media queries for menu and login */
 @media screen and (max-width:720px) {
@@ -88,7 +76,6 @@ header {
     header {
         display: grid;
     }
-
     #menu li {        
         display: grid;
         justify-content: center;
@@ -102,7 +89,8 @@ header {
     }
     #login select {       
         float: none;
-        width: 50%;       
+        width: 50%; 
+        margin-right: 0;      
     }
     
     #login .bottom {         
@@ -113,27 +101,22 @@ header {
         margin-bottom: 5px;       
     }
 }
-
 /* header picture and logo */
 #burka {        
     height: 750px;
     background: url('../images/burqa-mit-bread-3.jpg') no-repeat center center;
     background-size: cover;
 }
-
 #banner {    
     position: relative;    
     overflow: auto;    
 }
-
 #banner img {
     position: absolute;
     top: 60px;
     left: 60px;
     width: 18%;
 }
-
-
 /* text on the header picture */
 #burka-text {
     position: relative;
@@ -149,36 +132,29 @@ header {
     padding: 20px 20px; 
     
     
-
 }
-
 #burka-text h1 {
     font-size: 240%;
     margin-bottom: 20px;
 }
-
 #burka-text h5 {
     font-size: 120%;
 }
-
 /* media setting for textbox on the background picture from 1260 */
 @media screen and (max-width: 1260px) {
     #burka-text {
         height: auto;
     }
-
     #banner img {
         width: 25%;
     }
     
 }
-
 @media screen and (max-width: 786px) {
     #burka-text {
         font-size: 2.5vw;
     }
 }
-
 /* statistics section*/
 #statistics {
     width: 90%;    
@@ -190,7 +166,6 @@ header {
   
              
 }
-
 #statistics h1 {
     
     color: red;
@@ -199,7 +174,6 @@ header {
     vertical-align: bottom;
     text-align: center;
 }
-
 #statistics h3 {
     
     color: green;
@@ -208,24 +182,18 @@ header {
     vertical-align: top;
     text-align: center;
 }
-
 /* media query for statistics from 1100*/
-
 @media screen and (max-width: 1100px) {
     #statistics {
         display: grid;
         height: auto;
         
     }
-
     #statistics div {
         padding-bottom: 50px;
         
     }
 }
-
-
-
 /* talib and girl */
 #talib {
     width: 100%;
@@ -235,7 +203,6 @@ header {
     
       
 }
-
 #talib div {
     max-width: 30%;
     max-height: 90%;
@@ -248,9 +215,7 @@ header {
     letter-spacing: 2px;
     
     
-
 }
-
 #talib img {   
     position: absolute;
     max-width: 60%; 
@@ -260,7 +225,6 @@ header {
     border: solid 25px #454545;
       
 }
-
 #talib h2 {
     color: aqua;
     font-size: 150%;
@@ -268,9 +232,7 @@ header {
     margin-top: 50px;
     margin-bottom: 10px;
 }
-
 /* media query for Talib section from 1300 */
-
 @media screen and (max-width: 1200px){
     #talib {
         height: auto;
@@ -279,14 +241,12 @@ header {
         align-items: center;
               
     }
-
     #talib div {
         max-width: 70%;
         display: block;
         order: 2;
         padding: 0 10px 40px 10px;
        }
-
     #talib img {
         position: relative;
         max-width: 90%;     
@@ -294,10 +254,7 @@ header {
     }
 }
   
-
-
 /* video */
-
 #video {    
     width: 100%;
     height:max-content; 
@@ -308,8 +265,10 @@ header {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-
+#video iframe {
+    width: 900px;
+    height: 700px;
+}
 /* starting section */
 #starting {
     width: 100%;
@@ -318,14 +277,12 @@ header {
     position: relative;   
     
 }
-
 #starting h2 {
     color: #3d5777;
     font-size: 250%;
     font-weight: bold;
     padding: 50px;
 }
-
 #starting table {
     width: 70%;    
     color: #3d5777;
@@ -334,14 +291,11 @@ header {
     font-weight: 700;
     
 }
-
 #starting td {
     padding: 10px;
     padding-bottom: 30px;
     vertical-align: center;
-
 }
-
 #starting-td {
     color: #F5174e;
     vertical-align:bottom;
@@ -349,18 +303,14 @@ header {
    
     
 }
-
 #starting-td a {
     text-decoration: none;
     color: #F5174e;
 }
-
 #starting-td a:hover {
     text-shadow: 0 0 10px rgb(24, 22, 22);
 }
-
 /* media query for statistics from 1120 screen size */
-
 @media screen and (max-width: 1120px){
     #starting {
         width: 100%;
@@ -372,24 +322,19 @@ header {
         border-collapse: collapse;
         margin: 0 auto;
     }
-
     #starting tr {
         display: flex;
         flex-direction: column;
         padding-bottom: 30px;
     }
-
     #starting td {
         display: block;
     }
-
     #Starting-td {
         text-align: right;
     }
 }
-
 /* contact */
-
 footer {
     width: 100%;
     height: 300px;
@@ -399,7 +344,6 @@ footer {
     column-count: 3;
     column-gap: 10px;
 }
-
 footer div {
     width: 100%;
     height: 100%;
@@ -408,12 +352,10 @@ footer div {
     justify-content: center;
     color: black;
 }
-
 footer i {
     padding: 20px;
     color: black;
 }
-
 footer li {
     list-style: none;
     float: left;
@@ -425,35 +367,26 @@ footer div:nth-child(1) img {
     height: auto;
        
 }
-
 footer table td:nth-child(1) {
     text-align: center;
 }
-
 footer div p i {
     padding: 5px;
 }
-
  
-
 /* media query for contact from 890 */
-
 @media screen and (max-width: 890px) {
     footer {
         height: auto;
         column-count: 1;
         align-items: center;       
-
     }
-
     footer div {
         padding: 25px 0;       
     }
 }
-
 /* apply-form.html */
 /* banner and title */
-
 #apply-banner {
     width: 100%;
     position: relative;
@@ -463,7 +396,6 @@ footer div p i {
     display: flex;    
     align-items: flex-end;
 }
-
 #apply-banner h1 {
     position: relative;
     display: flex;
@@ -477,7 +409,6 @@ footer div p i {
     font-weight: bold;
     text-align: center;    
 }
-
 /* form */
 #form-container {
     width: 100%;
@@ -488,7 +419,6 @@ footer div p i {
     margin-bottom: 100px;
     
 }
-
 form {    
     display: inline-block;  
     width: 50%;
@@ -496,23 +426,17 @@ form {
     font-size: 130%;  
       
 }
-
 form div {
     padding: 10px;
     justify-content: center;
     align-items: center;
 }
-
-
 form label {    
     width: 30%;
     padding: 10px 0; 
     font-weight: 500;
     color: #454545;  
-
 }
-
-
 form select {
     float: right;
     border: solid 1px gray;
@@ -522,7 +446,6 @@ form select {
     padding: 2px;
     color: gray;   
 }
-
 form input {   
     float: right;
     border: solid 1px gray;
@@ -532,7 +455,6 @@ form input {
     padding: 2px;
     color: gray;         
 }
-
 form textarea {
     width: 90%;
     height: 300px;
@@ -543,19 +465,15 @@ form textarea {
     font-family: calibri;
     padding: 20px;
 }
-
 form table td {
     width: fit-content;
     padding: 10px;
 }
-
-
 form hr {
     width: 100%;
     border: none;
     border-top: 1px solid #454545;
 }
-
 form button {
     background-color: rgb(196, 194, 194);
     cursor: pointer;
@@ -564,31 +482,25 @@ form button {
     padding: 10px;
     border-radius: 5px;
 }
-
 form button:hover {
     background-color: rgb(235, 188, 188);
 }
-
 /* media query for form below 800px */
-
 @media screen and (max-width: 800px){
     
     form {
         width: 60%;
     }
-
     form label {
         display: block;
         width: 100%;
         
     }
-
     form input {
         display: block;       
         float: none;
         width: 100%;
     }
-
     form select {
         display: block;
         margin-bottom: 10px;
@@ -599,23 +511,26 @@ form button:hover {
         height: 400px;
         
     }
+    #video iframe {
+        width: 600px;
+        height: 450px;
+    }
 }
-
 @media screen and (max-width: 600px){
     form {
         width: 80%;
     }
-
     form textarea {       
         height: 500px;
         
     }
+    #video iframe {
+      width: 400px;
+      height: 300px;
+  }
 }
-
-
 /* supporter-form.html */
 /* banner and title */
-
 #supporter-banner {
     width: 100%;
     position: relative;
@@ -626,7 +541,6 @@ form button:hover {
     align-items: flex-end;
     background-position: center 70%;
 }
-
 #supporter-banner h1 {
     position: relative;
     display: flex;
@@ -640,10 +554,8 @@ form button:hover {
     font-weight: bold;
     text-align: center;    
 }
-
 /* institute-form.html */
 /* banner and title */
-
 #institute-banner {
     width: 100%;
     position: relative;
@@ -654,7 +566,6 @@ form button:hover {
     align-items: flex-end;
     background-position: center 20%;
 }
-
 #institute-banner h1 {
     position: relative;
     display: flex;
@@ -667,4 +578,17 @@ form button:hover {
     font-size: 300%;
     font-weight: bold;
     text-align: center;    
+}
+@media screen and (max-width: 400px){
+  form {
+      width: 80%;
+  }
+  form textarea {       
+      height: 500px;
+      
+  }
+  #video iframe {
+    width: 280px;
+    height: 220px;
+}
 }
