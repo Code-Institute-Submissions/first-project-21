@@ -196,6 +196,17 @@ header {
     }
 }
 
+    /* media query for statistics from 360*/
+@media screen and (max-width: 360px) {
+    #statistics h1 {       
+        font-size: 10vw;        
+    }
+    #statistics h3 {       
+        font-size: 5vw;
+        
+    }
+}
+
 /* talib and girl */
 #talib {
     width: 100%;
@@ -221,7 +232,7 @@ header {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    border: solid 25px #454545;
+    border: solid 20px #454545;
       
 }
 #talib h2 {
