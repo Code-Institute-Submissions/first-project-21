@@ -675,7 +675,7 @@ form button:hover {
     font-size: 130%;   
     padding: 20px;
     color: #f5d3a3;
-    width: 30%;         
+    width: 25%;         
 }
 
 #login-banner h1 {        
@@ -684,16 +684,20 @@ form button:hover {
     font-weight: bold;
     text-align: left;
     color: #f5d3a3; 
-    padding-left: 10px;   
+      
 }
 
-form label {
+#login-banner div {
+    padding: 0;
+}
+
+#login-banner form label {
     display: block;
     width: 100%;
     color: #f5d3a3;
     
 }
-form input {
+#login-banner form input {
     display: block;       
     float: none;
     width: 100%;
@@ -710,19 +714,25 @@ form input {
     background-color: #7ebea6;
     color: #f5d3a3;
     list-style: none;
-    margin: 0 5px;
+    margin-top: 20px;
     padding: 10px; 
+    
      
 }
 
-@media screen and (max-width: 1410px) {
+@media screen and (max-width: 1160px) {
    
     
-    #login-banner form {        
-        margin-top: 5%;
-        margin-left: 33%;    
-               
-    }
+    #login-banner {
+        background-size: contain;        
+        
+           
+     }
+     
+     #login-banner form {       
+        margin-top: 15%;
+        margin-left: 55%; 
+}
 }
 
 @media screen and (max-width: 900px) {
@@ -730,10 +740,9 @@ form input {
     #login-banner {
        background-size: cover;
         max-height: 500px;
-        background-position: left 90%; 
+        background-position: 30% center; 
         display: flex;
-        justify-content: center;
-        align-items: center;       
+          
     }
     
     #login-banner form {       
