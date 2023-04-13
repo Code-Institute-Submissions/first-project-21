@@ -287,10 +287,27 @@ header {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    
 }
 #video iframe {
-    width: 900px;
+    width: 1200px;
     height: 700px;
+}
+
+@media screen and (max-width: 1200px){
+
+    #video iframe {
+        width: 800px;
+        height: 450px;
+    }
+    }
+
+@media screen and (max-width: 800px){
+
+#video iframe {
+    width: 600px;
+    height: 450px;
+}
 }
 
 /* starting section */
@@ -553,11 +570,7 @@ form button:hover {
     form textarea {       
         height: 400px;
         
-    }
-    #video iframe {
-        width: 600px;
-        height: 450px;
-    }
+    
 }
 @media screen and (max-width: 600px){
     form {
