@@ -2,8 +2,8 @@
 Haami!
 
 # Haami
-Haami is a Persian word that means "supporter". The website's vision is to provide opportunities for Afghanistan women to do online further education at home to become a freelancer and start working from home.
-Haami is a website that tries to connect 3 groups of people. The first group is Afghanistan women who are not allowed to get educated and have jobs by the Taliban. The second group is supporters, those people around the world who want to help Afghanistan Women in this hard situation. And the third group is the institutes that provide online education. 
+Haami is a Persian word that means "supporter". The website's vision is to provide opportunities for Afghanistan women to do online further education at home to become a freelancer and start working from home. <br>
+Haami is a website that tries to connect 3 groups of people. The first group is Afghanistan women who are not allowed to get educated and have jobs by the Taliban. The second group is supporters, those people around the world who want to help Afghanistan Women in this hard situation. And the third group is the institutes that provide online education. <br> 
 So online education centers can offer their courses and training on the website. At the same time, Afghanistan women can apply for the courses. Then supporters can select applicants among all the applicants and pay for the cost of the courses directly to the institutes. They can also track supported students' progress.      
 
 ![Website in different screen sizes.](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/screenshot-responsive.png)
@@ -13,8 +13,8 @@ So online education centers can offer their courses and training on the website.
 - Website has 5 pages: home page, apply page, supporter page, institute page and log in page.
 - The home page tries to give general information about current situation of women in Afghanistan, logic of the website's job and contact details.
 - The website has 3 pages for 3 groups, which mentioned above, for applying, registering and information sharing. This pages provide forms for users for further steps.
-- The apply page is for the women who live in Afghansitan and want to get trained online and become a freelancer, but does not have financial resources. They can apply in this page and select the desired institue and field.
-- The institute page is a form too. The page is for educational institute to share their information for further cooporation.
+- The apply page is for the women who live in Afghanistan and want to get trained online and become a freelancer, but does not have financial resources. They can apply in this page and select the desired institute and field.
+- The institute page is a form too. The page is for educational institute to share their information for further cooperation.
 - The supporter page is a kind of form for supporters who want to cover training cost for applicants. 
 - The log in page leads users to their profiles.
 ### Features in Home page
@@ -24,39 +24,39 @@ So online education centers can offer their courses and training on the website.
   - In the right side of navigation bar, the log in part with drop-down list help users to access to log in page. 
 ![Nav Bar](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/navbar.png)
 - __The home page image__
-  - The home page image shows an Afghan woman wearing the Burka hijab, which she was forced to wear by the Taliban, buying a few slices of bread. I used this image to show the current situation of Afghan women. Bread has deep meaning and respect in Afghan culture. One of the common words for bread is "Rozi" which means you earn money so that you can eat something. The woman in the picture represents Afghan women who worked, had jobs before, and could bring bread (rozi) to their home. But it is different now.  
+  - The home page image shows an Afghan woman wearing the Burka hijab, which she was forced to wear by the Taliban, buying a few slices of bread. I used this image to show the current situation of Afghan women. Bread has deep meaning and respect in Afghan culture. One of the common words for bread is "Rozi" which means you earn money so that you can eat something. The woman in the picture represents Afghan women who worked, had jobs before, and could bring bread (Rozi) to their home. But it is different now.  
   - There are logo and text on the home page image that make some questions in users' minds. 
 ![Home Page](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/homepage-img.png)
 - __Statistics Section__
-  - This section provides some statistics about freelancers to catch more attention from users. 
+  - This section provides some statistics about freelancers to catch more attention of users. 
   
 ![Statistics Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/statistics-section.png)
 - __Talib section__
   - This section includes one image and 2 headers and 2 short paragraphs. 
   - The image clearly shows the current situation of girls and women in Afghanistan.  
-  - The text explains shortly the picture and come up with a possible solution.  
+  - The text explains shortly the picture and comes up with a possible solution.  
 ![Talib Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/talib-section.png)
-- __Vedio section__
-  - This section includes a YouTube vedio from ITV News channel. 
+- __Video section__
+  - This section includes a YouTube video from ITV News channel. 
   - The video is a short report on the situation of Afghan women after the announcement of the ban on education and work by the Taliban.   
 ![Vedio Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/video.png)
 
 - __Contact Section__ 
   - This section includes map and footer.  
   - The map shows the location of the Haami which is not real.
-  - The footer includes 3 parts. 1- logo and copy right text, 2- contact details and 3- social meida.
+  - The footer includes 3 parts. 1- logo and copyright text, 2- contact details and 3- social media.
   - Email address and phone are clickable and take users to relevant apps.
-  - Social media icons are linked to thier own pages. 
+  - Social media icons are linked to their own pages. 
 ![Contact](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/contact-section.png)
 ### Features in Form Pages
 - __Banners__
-  - Each form page has specific banner relevant with the content. The name of the form added at the bottom of the banner.   
+  - Each form page has specific banner which is relevant to the content. The name of the form is added at the bottom of each banner.   
 ![Apply Page Banner](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/apply-banner.png)
 ![Supporter Page Banner](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/supporter-banner.png)
 ![Institute Page Banner](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/institute-banner.png)
 - __Forms__
-  - According the rquired information, specific form has been designed for each group of users.
-  - In addition the information, each forms provide sign up form for users to make their accounts. 
+  - According to the required information, a specific form has been designed for each group of users.
+  - In addition to the information, each form provides sign up form for users to make their accounts. 
 - __Apply Form__
 ![Apply Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/apply-form.png)
 - __Supporter Form__
@@ -65,8 +65,8 @@ So online education centers can offer their courses and training on the website.
 ![Institute Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/institute-form.png)
 ### Features in Log In Page
   - It shows a girl who, although she is standing by the window of a dark house - the current situation in Afghanistan - but her heart is hopeful.
-  - The users who have acount in the website can log in to their account through this page.
-![Log In Page](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/institute-form.png) 
+  - The users who have accounts on the website can log in to their accounts through this page.
+![Log In Page](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/login-page.png) 
 ### Features Left to Implement
 - The website needs some more information pages. Every group of target users should lead to information pages and then directed to form pages. 
 - profile pages should be coded for each target group users. 
@@ -74,18 +74,16 @@ So online education centers can offer their courses and training on the website.
 - payment facilities should be added supporters' profile.
 - website should be integrated with institute partners' systems for data exchange.  
 ## Testing 
-I tested the website in chrome developer tools, W3C and Jigsaw validator.
-### Validator Testing 
-- Lighthouse in Developer Tools
+
+- Lighthouse in Developer Tools <br>
 ![Lighthouse Scores](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/lighthouse.png) 
-- HTML
+- HTML Validator
   - One error were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F5555-strasse34-first-project-c2tvszmcgc.us2.codeanyapp.com%2F)
-- CSS
+- CSS Validator
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F5555-strasse34-first-project-c2tvszmcgc.us2.codeanyapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 ### Unfixed Bugs
-There is an error while walidating in W3C. I tried with Microsoft Edge too and got the same error. I explore in the internet and found out that there a problem with Github. Github is working on it at this moment.  
+There is an error while validating in W3C. I tried with Microsoft Edge too and got the same error. I explored the internet and found out that there is a problem with Github. Github is working on it at this moment.  
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - In the "Code and automation" section of the sidebar, click Pages
@@ -97,7 +95,7 @@ The live link can be found here - (https://strasse34.github.io/first-project/)
 - Google, youtube and chat-GPT were the main sources to find answers for my questions. 
 - The icons in the all webpages were taken from [Font Awesome](https://fontawesome.com/)
 ### Media
-- The photos used on the home page as banner is from (https://www.aajenglish.tv/news/30276709)
+- The photos used on the home page as the banner is from (https://www.aajenglish.tv/news/30276709)
 - The images used for banner in Apply Page is from [The Guardian] (https://www.theguardian.com/global-development/2021/mar/02/id-like-to-join-pixar-one-day-meet-afghanistans-first-female-animator)
 - All the other artworks are from Shamsia Hassani, the Afghan girl artist (https://www.shamsiahassani.net/)
 - I used (https://www.wix.com/logo/maker) to make a logo.
