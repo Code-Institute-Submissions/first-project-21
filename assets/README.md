@@ -17,17 +17,23 @@ So online education centers can offer their courses and training on the website.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 ![Nav Bar](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/navbar.png)
 - __The home page image__
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-- __Club Ethos Section__
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-- __Meetup Times section__
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  -The home page image shows an Afghan woman wearing the Burka hijab, which she was forced to wear by the Taliban, buying a few slices of bread. I used this image to show the current situation of Afghan women. Bread has deep meaning and respect in Afghan culture. One of the common words for bread is "rozi" which means you earn money so that you can eat something. The woman in the picture represents Afghan women who were worked, had job before, and could bring bread (rozi) to their home. But it is different now.  
+  - There are logo and text on the home page image that make some questions in users' mind. 
+![Home Page](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/homepage-img.png)
+- __Statistics Section__
+  - This section provide some statistics about freelancers to catch more attention from users. 
+  
+![Statistics Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/statistics-section.png)
+- __Talib section__
+  - This section includes one image and 2 headers and 2 short paragrphs. 
+  - The image clearly shows the current situation of girls and women in Afghanistan.  
+  - The text explains shortly the picture and come up with a possible solution.  
+![Talib Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/talib-section.png)
+- __Vedio section__
+  - This section includes a YouTube vedio from ITV News channel. 
+  - The video is a short report on the situation of Afghan women after the announcement of the ban on education and work by the Taliban.   
+![Vedio Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/video.png)
+
 - __The Footer__ 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
