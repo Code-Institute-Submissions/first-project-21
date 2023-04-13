@@ -569,8 +569,7 @@ form button:hover {
     }
     form textarea {       
         height: 400px;
-        
-    
+    }  
 }
 @media screen and (max-width: 600px){
     form {
@@ -769,9 +768,9 @@ form button:hover {
     }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 350px) {
     #login-banner form {         
         width: 90%;
         margin: auto 10px;          
-    }   
+    }
 }
