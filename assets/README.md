@@ -60,8 +60,6 @@ So online education centers can offer their courses and training on the website.
 ![Apply Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/apply-form.png)
 ![Supporter Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/supporter-form.png)
 ![Institute Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/institute-form.png)
-For some/all of your features, you may choose to reference the specific project files that implement them.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 ### Features in Log In Page
   - It shows a girl who, although she is standing by the window of a dark house - the current situation in Afghanistan - but her heart is hopeful.
   - The users who have acount in the website can log in to their account through this page.
