@@ -6,7 +6,7 @@ Haami is a Persian word that means "supporter". The website's vision is to provi
 Haami is a website that tries to connect 3 groups of people. The first group is Afghanistan women who are not allowed to get educated and have jobs by the Taliban. The second group is supporters, those people around the world who want to help Afghanistan Women in this hard situation. And the third group is the institutes that provide online education. 
 So online education centers can offer their courses and training on the website. At the same time, Afghanistan women can apply for the courses. Then supporters can select applicants among all the applicants and pay for the cost of the courses directly to the institutes. They can also track supported students' progress.      
 
-![responsive screen](https://github.com/strasse34/first-project/blob/main/assets/images/screenshot-responsive.png)
+![Website in different screen sizes.](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/screenshot-responsive.png)
 
 
 ## Features 
@@ -15,8 +15,8 @@ So online education centers can offer their courses and training on the website.
 - __Navigation Bar__
   - Featured on all five pages, the full responsive navigation bar includes links to the home page, apply page, supporter page, institute page and Log In page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
-- __The landing page image__
+![Nav Bar](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/navbar.png)
+- __The home page image__
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
