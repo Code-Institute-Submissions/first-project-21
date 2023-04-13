@@ -6,7 +6,7 @@ Haami is a Persian word that means "supporter". The website's vision is to provi
 Haami is a website that tries to connect 3 groups of people. The first group is Afghanistan women who are not allowed to get educated and have jobs by the Taliban. The second group is supporters, those people around the world who want to help Afghanistan Women in this hard situation. And the third group is the institutes that provide online education. 
 So online education centers can offer their courses and training on the website. At the same time, Afghanistan women can apply for the courses. Then supporters can select applicants among all the applicants and pay for the cost of the courses directly to the institutes. They can also track supported students' progress.      
 
-![resonsive screen](assets/images/screenshot-responsive.png)
+![responsive screen](https://github.com/strasse34/first-project/blob/main/assets/images/screenshot-responsive.png)
 
 
 ## Features 
