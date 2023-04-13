@@ -71,7 +71,7 @@ So online education centers can offer their courses and training on the website.
 - The website needs some more information pages. Every group of target users should lead to information pages and then directed to form pages. 
 - profile pages should be coded for each target group users. 
 - All the profiles should be integrated to each other.
-- payment facilities should be added supporters' profile.
+- payment facilities should be added to supporters' profile.
 - website should be integrated with institute partners' systems for data exchange.  
 ## Testing 
 
