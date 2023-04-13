@@ -24,7 +24,7 @@ So online education centers can offer their courses and training on the website.
   - In the right side of navigation bar, the log in part with drop-down list help users to access to log in page. 
 ![Nav Bar](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/navbar.png)
 - __The home page image__
-  - The home page image shows an Afghan woman wearing the Burka hijab, which she was forced to wear by the Taliban, buying a few slices of bread. I used this image to show the current situation of Afghan women. Bread has deep meaning and respect in Afghan culture. One of the common words for bread is "rozi" which means you earn money so that you can eat something. The woman in the picture represents Afghan women who worked, had jobs before, and could bring bread (rozi) to their home. But it is different now.  
+  - The home page image shows an Afghan woman wearing the Burka hijab, which she was forced to wear by the Taliban, buying a few slices of bread. I used this image to show the current situation of Afghan women. Bread has deep meaning and respect in Afghan culture. One of the common words for bread is "Rozi" which means you earn money so that you can eat something. The woman in the picture represents Afghan women who worked, had jobs before, and could bring bread (rozi) to their home. But it is different now.  
   - There are logo and text on the home page image that make some questions in users' minds. 
 ![Home Page](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/homepage-img.png)
 - __Statistics Section__
@@ -57,8 +57,11 @@ So online education centers can offer their courses and training on the website.
 - __Forms__
   - According the rquired information, specific form has been designed for each group of users.
   - In addition the information, each forms provide sign up form for users to make their accounts. 
+- __Apply Form__
 ![Apply Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/apply-form.png)
+- __Supporter Form__
 ![Supporter Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/supporter-form.png)
+- __Institute Form__
 ![Institute Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/institute-form.png)
 ### Features in Log In Page
   - It shows a girl who, although she is standing by the window of a dark house - the current situation in Afghanistan - but her heart is hopeful.
@@ -69,25 +72,24 @@ So online education centers can offer their courses and training on the website.
 - profile pages should be coded for each target group users. 
 - All the profiles should be integrated to each other.
 - payment facilities should be added supporters' profile.
-- website should be integrated with institute partners' systems for data transfering.  
+- website should be integrated with institute partners' systems for data exchange.  
 ## Testing 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I tested the website in chrome developer tools, W3C and Jigsaw validator.
 ### Validator Testing 
+- Lighthouse in Developer Tools
+![Lighthouse Scores](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/lighthouse.png) 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - One error were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F5555-strasse34-first-project-c2tvszmcgc.us2.codeanyapp.com%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F5555-strasse34-first-project-c2tvszmcgc.us2.codeanyapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 ### Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+There is an error while walidating in W3C. I tried with Microsoft Edge too and got the same error. I explore in the internet and found out that there a problem with Github. Github is working on it at this moment.  
 ## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - In the "Code and automation" section of the sidebar, click Pages
+  - Under Github Pages, click on button "Visit Site".
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 ## Credits 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
