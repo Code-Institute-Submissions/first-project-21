@@ -381,8 +381,17 @@ footer div {
 
 footer table a {
     text-decoration: none;
-    color: black;
+    color: black;    
 }
+
+footer a:hover {
+    color: rgb(236, 193, 52);
+}
+
+footer a:hover i {
+    color: rgb(236, 193, 52);
+}
+
 footer i {
     padding: 20px;
     color: black;
