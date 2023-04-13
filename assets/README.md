@@ -1,10 +1,10 @@
 
-Happy coding!
+Haami!
 
-# Love Running
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+# Haami
+Haami is a Persian word that means "supporter". The website's vision is to provide opportunities for Afghanistan women to do online further education at home to become a freelancer and start working from home.
+Haami is a website that tries to connect 3 groups of people. The first group is Afghanistan women who are not allowed to get educated and have jobs by the Taliban. The second group is supporters, those people around the world who want to help Afghanistan Women in this hard situation. And the third group is the institutes that provide online education. 
+So online education centers can offer their courses and training on the website. At the same time, Afghanistan women can apply for the courses. Then supporters can select applicants among all the applicants and pay for the cost of the courses directly to the institutes. They can also track supported students' progress.      
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
