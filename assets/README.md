@@ -15,26 +15,27 @@ So online education centers can offer their courses and training on the website.
 - The institute page is a form too. The page is for educational institute to share their information for further cooperation.
 - The supporter page is a kind of form for supporters who want to cover training cost for applicants. 
 - The log in page leads users to their profiles.
+## Features
 ### Features in Home page
 - __Navigation Bar__
   - Featured on all five pages, the full responsive navigation bar includes links to the home page, apply page, supporter page, institute page and Log In page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
   - In the right side of navigation bar, the log in part with drop-down list help users to access to log in page. 
 ![Nav Bar](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/navbar.png)
-- __The home page image__
-  - The home page image shows an Afghan woman wearing the Burka hijab, which she was forced to wear by the Taliban, buying a few slices of bread. I used this image to show the current situation of Afghan women. Bread has deep meaning and respect in Afghan culture. One of the common words for bread is "Rozi" which means you earn money so that you can eat something. The woman in the picture represents Afghan women who worked, had jobs before, and could bring bread (Rozi) to their home. But it is different now.  
+- __The Home Page Banner__
+  - The home page banner shows an Afghan woman wearing the Burka hijab, which she was forced to wear by the Taliban, buying a few slices of bread. I used this image to show the current situation of Afghan women. Bread has deep meaning and respect in Afghan culture. One of the common words for bread is "Rozi" which means you earn money so that you can eat something. The woman in the picture represents Afghan women who worked, had jobs before, and could bring bread (Rozi) to their home. But it is different now.  
   - There are logo and text on the home page image that make some questions in users' minds. 
 ![Home Page](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/homepage-img.png)
 - __Statistics Section__
   - This section provides some statistics about freelancers to catch more attention of users. 
   
 ![Statistics Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/statistics-section.png)
-- __Talib section__
+- __Talib Section__
   - This section includes one image and 2 headers and 2 short paragraphs. 
   - The image clearly shows the current situation of girls and women in Afghanistan.  
   - The text explains shortly the picture and comes up with a possible solution.  
 ![Talib Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/talib-section.png)
-- __Video section__
+- __Video Section__
   - This section includes a YouTube video from ITV News channel. 
   - The video is a short report on the situation of Afghan women after the announcement of the ban on education and work by the Taliban.   
 ![Vedio Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/video.png)
