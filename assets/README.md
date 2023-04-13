@@ -9,23 +9,30 @@ So online education centers can offer their courses and training on the website.
 ![Website in different screen sizes.](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/screenshot-responsive.png)
 
 
-## Features 
-
-### Existing Features
+## Pages
+- Website has 5 pages: home page, apply page, supporter page, institute page and log in page.
+- The home page tries to give general information about current situation of women in Afghanistan, logic of the website's job and contact details.
+- The website has 3 pages for 3 groups, which mentioned above, for applying, registering and information sharing. This pages provide forms for users for further steps.
+- The apply page is for the women who live in Afghansitan and want to get trained online and become a freelancer, but does not have financial resources. They can apply in this page and select the desired institue and field.
+- The institute page is a form too. The page is for educational institute to share their information for further cooporation.
+- The supporter page is a kind of form for supporters who want to cover training cost for applicants. 
+- The log in page leads users to their profiles.
+### Features in Home page
 - __Navigation Bar__
   - Featured on all five pages, the full responsive navigation bar includes links to the home page, apply page, supporter page, institute page and Log In page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - In the right side of navigation bar, the log in part with drop-down list help users to access to log in page. 
 ![Nav Bar](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/navbar.png)
 - __The home page image__
-  -The home page image shows an Afghan woman wearing the Burka hijab, which she was forced to wear by the Taliban, buying a few slices of bread. I used this image to show the current situation of Afghan women. Bread has deep meaning and respect in Afghan culture. One of the common words for bread is "rozi" which means you earn money so that you can eat something. The woman in the picture represents Afghan women who were worked, had job before, and could bring bread (rozi) to their home. But it is different now.  
-  - There are logo and text on the home page image that make some questions in users' mind. 
+  - The home page image shows an Afghan woman wearing the Burka hijab, which she was forced to wear by the Taliban, buying a few slices of bread. I used this image to show the current situation of Afghan women. Bread has deep meaning and respect in Afghan culture. One of the common words for bread is "rozi" which means you earn money so that you can eat something. The woman in the picture represents Afghan women who worked, had jobs before, and could bring bread (rozi) to their home. But it is different now.  
+  - There are logo and text on the home page image that make some questions in users' minds. 
 ![Home Page](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/homepage-img.png)
 - __Statistics Section__
-  - This section provide some statistics about freelancers to catch more attention from users. 
+  - This section provides some statistics about freelancers to catch more attention from users. 
   
 ![Statistics Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/statistics-section.png)
 - __Talib section__
-  - This section includes one image and 2 headers and 2 short paragrphs. 
+  - This section includes one image and 2 headers and 2 short paragraphs. 
   - The image clearly shows the current situation of girls and women in Afghanistan.  
   - The text explains shortly the picture and come up with a possible solution.  
 ![Talib Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/talib-section.png)
@@ -34,21 +41,37 @@ So online education centers can offer their courses and training on the website.
   - The video is a short report on the situation of Afghan women after the announcement of the ban on education and work by the Taliban.   
 ![Vedio Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/video.png)
 
-- __The Footer__ 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-- __Gallery__
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-- __The Sign Up Page__
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+- __Contact Section__ 
+  - This section includes map and footer.  
+  - The map shows the location of the Haami which is not real.
+  - The footer includes 3 parts. 1- logo and copy right text, 2- contact details and 3- social meida.
+  - Email address and phone are clickable and take users to relevant apps.
+  - Social media icons are linked to thier own pages. 
+![Contact](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/contact-section.png)
+### Features in Form Pages
+- __Banners__
+  - Each form page has specific banner relevant with the content. The name of the form added at the bottom of the banner.   
+![Apply Page Banner](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/apply-banner.png)
+![Supporter Page Banner](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/supporter-banner.png)
+![Institute Page Banner](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/institute-banner.png)
+- __Forms__
+  - According the rquired information, specific form has been designed for each group of users.
+  - In addition the information, each forms provide sign up form for users to make their accounts. 
+![Apply Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/apply-form.png)
+![Supporter Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/supporter-form.png)
+![Institute Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/institute-form.png)
 For some/all of your features, you may choose to reference the specific project files that implement them.
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### Features in Log In Page
+  - It shows a girl who, although she is standing by the window of a dark house - the current situation in Afghanistan - but her heart is hopeful.
+  - The users who have acount in the website can log in to their account through this page.
+![Log In Page](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/institute-form.png) 
 ### Features Left to Implement
-- Another feature idea
+- The website needs some more information pages. Every group of target users should lead to information pages and then directed to form pages. 
+- profile pages should be coded for each target group users. 
+- All the profiles should be integrated to each other.
+- payment facilities should be added supporters' profile.
+- website should be integrated with institute partners' systems for data transfering.  
 ## Testing 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
