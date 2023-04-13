@@ -6,8 +6,7 @@
 body {
     font-family: calibri;
     font-weight: 300;
-    color: #454545;
-      
+    color: #454545;     
 }
 
 /* navigation */
@@ -286,9 +285,9 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;    
 }
+
 #video iframe {
     width: 1200px;
     height: 700px;
@@ -449,7 +448,8 @@ footer div p i {
     width: 100%;
     position: relative;
     background: url('../images/free-from-prison.jpg') no-repeat center center;
-    background-size: cover;    
+    background-size: cover;
+    background-position: top 200px;    
     height: 400px;
     display: flex;    
     align-items: flex-end;
