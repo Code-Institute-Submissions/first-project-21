@@ -57,7 +57,7 @@ header {
     
 }
 
-#login button {
+#login .button {
     float: right;
     font-family: sans-serif;
     font-weight: 400;
