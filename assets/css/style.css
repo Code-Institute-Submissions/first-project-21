@@ -24,9 +24,9 @@ header {
     font-family: sans-serif;
     font-weight: 400;
     color: #7B96C2ff;
-    list-style: none;
-    
+    list-style: none;    
 }
+
 #menu li {
     display: inline-block;
     margin-right: 10px;
@@ -57,7 +57,7 @@ header {
     
 }
 
-#login .button {
+.button {
     float: right;
     font-family: sans-serif;
     font-weight: 400;
@@ -100,12 +100,15 @@ header {
         margin-right: 0;      
     }
     
-    #login button {         
-        float: none;
+    .button {        
+        display: flex;      
+        text-align: center;
         width: 50%;       
         border: solid 1px #7B96C2ff;
+        background-color: #7B96C2ff;        
         margin-top: 5px;
-        margin-bottom: 5px;       
+        margin-bottom: 5px; 
+             
     }  
 }
 

@@ -77,9 +77,10 @@ So online education centers can offer their courses and training on the website.
 - Lighthouse in Developer Tools <br>
 ![Lighthouse Scores](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/lighthouse.png) 
 - HTML Validator
-  - One error were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F5555-strasse34-first-project-c2tvszmcgc.us2.codeanyapp.com%2F)
+  - 12 errors and warning were returned when passing through the official [W3C validator]https://validator.w3.org/nu/?doc=https%3A%2F%2Fstrasse34.github.io%2Ffirst-project%2Findex.html). I fixed all the errors but could not fix all the warnings due to shortage of the time. I just fixed one of the warnings and it effected the Login part in Navbar in smaller screen below 720px. 
 - CSS Validator
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F5555-strasse34-first-project-c2tvszmcgc.us2.codeanyapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - 2 errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstrasse34.github.io%2Ffirst-project%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). Unfortunatelly I couldnot fix the error due time shortage.
+  - I would like to mention that, I test both HTML and CSS before deployment and got nothing. But after deployment I got many errors. 
 ### Unfixed Bugs
 There is an error while validating in W3C. I tried with Microsoft Edge too and got the same error. I explored the internet and found out that there is a problem with Github. Github is working on it at this moment.  
 ## Deployment
