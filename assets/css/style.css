@@ -336,18 +336,18 @@ header {
     padding-bottom: 30px;
     vertical-align: center;
 }
-#starting-td {
+#starting .starting-td {
     color: #F5174e;
     vertical-align:bottom;
     white-space: nowrap;
    
     
 }
-#starting-td a {
+#starting .starting-td a {
     text-decoration: none;
     color: #F5174e;
 }
-#starting-td a:hover {
+#starting .starting-td a:hover {
     text-shadow: 0 0 10px rgb(24, 22, 22);
 }
 
@@ -371,7 +371,7 @@ header {
     #starting td {
         display: block;
     }
-    #Starting-td {
+    #starting .Starting-td {
         text-align: right;
     }
 }
